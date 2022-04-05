@@ -33,7 +33,7 @@ public R error(ArithmeticException e) {
     return R.error().message("执行了ArithmeticException异常处理");
 }
 
-//3自定义异常处理  
+//3自定义异常处理
 @ExceptionHandler(GuliException.class)
 @ResponseBody//为了返回数据
 //为了能够返回数据
